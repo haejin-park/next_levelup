@@ -43,7 +43,8 @@ export const Boundary =
             'border-gray-300': color === 'default',
             'border-vercel-pink': color === 'pink',
             'border-vercel-cyan': color === 'cyan',
-            'border-vercel-violet': color === 'orange',
+            'border-vercel-violet': color === 'violet',
+            'border-vercel-orange': color === 'orange',
             'text-vercel-pink animate-[rerender_1s_ease_in_out_1]':
             animateRerendering,
         })}
