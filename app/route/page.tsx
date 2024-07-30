@@ -1,3 +1,5 @@
+import { ExternalLink } from "@/ui/external-link";
+
 export default function Page() {
     return (
         <div className="prose-sm prose max-w-none">
@@ -13,6 +15,9 @@ export default function Page() {
                     템플릿(Templates): 특정한 레이아웃이나 구조를 재사용하는 공통 UI
                 </li>
             </ul>
+            <div className="flex gap-2">
+                <ExternalLink href="https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts">문서</ExternalLink>
+            </div>
         </div>
     )
 }
