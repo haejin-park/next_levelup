@@ -4,7 +4,7 @@ import { getCategories, getCategory } from "@/data/category";
 import { ClickCounter } from "@/ui/click-counter";
 import { TabGroup } from "@/ui/tab-group";
 
-export default async function Layout({
+export default function Layout({
     children,
     params,
 }: {
