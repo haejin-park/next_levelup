@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import '@/styles/globals.css'
 import { GlobalNav } from "@/ui/global-nav";
+import { AddressBar } from '@/ui/address-bar';
 
 export const metadata: Metadata = {
   title: '레벨업 리액트 프로그래밍 with Next.js',
@@ -14,6 +15,11 @@ export default function RootLayout({children,}: {children: React.ReactNode;}) {
         <GlobalNav />
         <div className="lg:pl-72">
           <div className="max-w-4xl px-2 pt-20 mx-auto space-y-8 lg:px-8">
+            <div className="p-px rounded-lg shadow-lg bg-vc-border-gradient shadow-black/20">
+              <div className="bg-white rounded-lg">
+                <AddressBar />
+              </div>
+            </div>
             <div className="p-px rounded-lg shadow-lg bg-vc-border-gradient shadow-black/20">
               <div className="rounded-lg bg-white p-3.5 lg:p-6">
                 {children}
