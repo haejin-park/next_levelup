@@ -1,5 +1,7 @@
 // 메뉴 데이터 구성
 
+import { notFound } from "next/navigation";
+
 export type Category = {
     name: string; //카테고리 이름
     slug: string; //URL에 사용될 카테고리 고유 식별자
@@ -45,5 +47,6 @@ export function getCategory(slug: string): Category {
             return foundCategory;
         }
     }
+    notFound();
     return {name: '', slug: '', count: 0, parent: null}
 }

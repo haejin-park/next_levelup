@@ -15,23 +15,21 @@ export default async function Layout({
     const categories = getTopCategories();
     return(
         <div className="space-y-9">
-            <div>
-                <div className="flex justify-between">
-                    <TabGroup 
-                        path='/error-handling'
-                        items={[
-                            {
-                                text: '홈',
-                            },
-                            ...categories.map((x) => ({
-                                text: x.name,
-                                slug: x.slug,
-                            })),
-                        ]}
-                    />
-                    <div className="self-start">
-                        <ClickCounter />
-                    </div>
+            <div className="flex justify-between">
+                <TabGroup 
+                    path='/error-handling'
+                    items={[
+                        {
+                            text: '홈',
+                        },
+                        ...categories.map((x) => ({
+                            text: x.name,
+                            slug: x.slug,
+                        })),
+                    ]}
+                />
+                <div className="self-start">
+                    <ClickCounter />
                 </div>
             </div>
             <div>{children}</div>
