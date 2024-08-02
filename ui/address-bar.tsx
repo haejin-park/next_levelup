@@ -77,7 +77,8 @@ export function AddressBar() {
                     </span>
                   </React.Fragment>
                 );
-              })}
+              })
+            }
           </>
         ) : null}
 
