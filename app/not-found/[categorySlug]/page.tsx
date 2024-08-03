@@ -1,6 +1,5 @@
 import { getCategory } from "@/data/category";
 import { SkeletonCard } from "@/ui/skeleton-card";
-import { log } from "console";
 
 export default function Page({
     params,
@@ -8,7 +7,6 @@ export default function Page({
     params: {categorySlug: string};
 }) {
     const category = getCategory(params.categorySlug)
-    console.log('category: ', category);
     
     return (
         <div className="space-y-4">
