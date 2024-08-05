@@ -71,4 +71,15 @@ export const menus: {name: string; items: Item[]}[] = [
           },
         ],
       },
+      {
+        name: '렌더링: 서버/클라이언트 컴포넌트',
+        items: [
+          {
+            name: '리액트 컨텍스트',
+            slug: 'context',
+            description:
+              'Pass context between Client Components that cross Server/Client Component boundary',
+          },
+        ],
+      },
 ];
