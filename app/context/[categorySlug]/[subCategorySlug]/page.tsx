@@ -1,6 +1,5 @@
 import { getCategory } from "@/data/category";
 import { Boundary } from "@/ui/boundary";
-import { SkeletonCard } from "@/ui/skeleton-card";
 import { Counter } from "../../context-click-counter";
 
 export default function Page({
