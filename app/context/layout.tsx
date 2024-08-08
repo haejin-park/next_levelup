@@ -23,7 +23,7 @@ export default async function Layout({
             animateRerendering={false}
         >
             <Boundary 
-                labels={['Counter Context Provider [Client Component']}
+                labels={['Counter Context Provider [Client Component]']}
                 color="blue"
                 size="small"
                 animateRerendering={false}
