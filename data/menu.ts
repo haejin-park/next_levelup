@@ -23,11 +23,11 @@ export const menus: {name: string; items: Item[]}[] = [
         slug: 'route-groups',
         description: 'URL 경로에 영향을 주지 않고 라우트를 조직',
       },
-      {
-        name: '병렬 라우팅',
-        slug: 'parallel-routes',
-        description: '동일한 레이아웃에서 여러 페이지 렌더링하기',
-      },
+      // {
+      //   name: '병렬 라우팅',
+      //   slug: 'parallel-routes',
+      //   description: '동일한 레이아웃에서 여러 페이지 렌더링하기',
+      // },
     ],
   },
   {
@@ -59,16 +59,16 @@ export const menus: {name: string; items: Item[]}[] = [
         slug: 'styling',
         description: '다양한 CSS 스타일링 라이브러리 및 방법론을 탐구',
       },
-      {
-        name: 'Next.js 라우팅 훅',
-        slug: 'hooks',
-        description: 'Preview the routing hooks available in Client Components',
-      },
-      {
-        name: 'URL 검색 파라미터 설정',
-        slug: 'search-params',
-        description: 'A collection of useful App Router code snippets',
-      },
+      // {
+      //   name: 'Next.js 라우팅 훅',
+      //   slug: 'hooks',
+      //   description: 'Preview the routing hooks available in Client Components',
+      // },
+      // {
+      //   name: 'URL 검색 파라미터 설정',
+      //   slug: 'search-params',
+      //   description: 'A collection of useful App Router code snippets',
+      // },
     ],
   },
   {
@@ -100,7 +100,6 @@ export const menus: {name: string; items: Item[]}[] = [
         slug: 'ssr',
         description: 'Server-render pages',
       },
-
       {
         name: '서스펜스 스트리밍',
         slug: 'streaming',
