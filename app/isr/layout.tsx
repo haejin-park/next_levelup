@@ -1,5 +1,6 @@
 import { TabGroup } from "@/ui/tab-group";
 import { Metadata } from "next";
+import React from "react";
 
 export const metadata: Metadata = {
     title: '레벨업 Next.js: ISR'
